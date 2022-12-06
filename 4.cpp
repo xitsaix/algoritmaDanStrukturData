@@ -49,6 +49,7 @@ int countSingleLinkedList(){
   return jumlah;
 }
 
+//kok bedaa
 void addMiddle(int nim, string nama, string prodi, int posisi){
   if(posisi < 1 || posisi > countSingleLinkedList()){
     cout << "[!] tdk bisa nambah karena posisi di luar jangkauan [!]" << endl;
@@ -194,7 +195,7 @@ int main()
   addMiddle(106, "Alex Saputra", "Sistem Informasi", 0);
   printSingleLinkedList();
   cout << "\n\n\n\n";
-  changeMiddle(105, "Winny Eka Putriiiii", "Bisnis Digital",5);
+  changeMiddle(105, "Winny Eka Putriiiii", "Bisnis Digital",1);
   printSingleLinkedList();
   cout << "\n\n\n\n";
   
